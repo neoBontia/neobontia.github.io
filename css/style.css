@@ -29,7 +29,6 @@ body{
 .displayPicture{
     grid-row: 1/4;
     grid-column: 2/3;
-    z-index: 1;
     justify-self: end;
     align-self: center;
     border-style: none;
