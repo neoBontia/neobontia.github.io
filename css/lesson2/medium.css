@@ -1,0 +1,84 @@
+:root{
+    --background-color: #B4CDED;
+    --body-color: #344966;
+    --nav-color: #FFD470;
+    --accent-1: #E6AF2E;
+    --accent-2: #7DCD85;
+
+    --primary-color: WHITE;
+    --secondary-color: #F6AE2D;
+}
+
+html {
+    background-color: var(--background-color);
+}
+
+body {
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: var(--body-color);
+    color: var(--primary-color)
+}
+
+header {
+    padding: 1em;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-container {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+.site-logo {
+    float: left;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+}
+
+nav {
+    background-color: var(--nav-color);
+	text-align: center;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+	margin: 0;
+	padding: 15px;
+	overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+	flex: 1 1 auto;
+	text-align: center;
+	padding: 3em;
+	text-decoration: none;
+	font-size: 1.2rem;
+    color: var(--body-color);
+}
+
+.active {
+    background-color: var(--accent-2);
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+	justify-content: center;
+    border-style: solid;
+    padding: 20px;
+    background-color: #B4CDED;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    border-radius: 10px;
+    padding: 1px;
+}
