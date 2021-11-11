@@ -1,0 +1,159 @@
+:root{
+    --background-color: #B4CDED;
+    --body-color: #344966;
+    --nav-color: #FFD470;
+    --accent-1: #E6AF2E;
+    --accent-2: #7DCD85;
+
+    --primary-color: WHITE;
+    --secondary-color: #F6AE2D;
+
+    --title-font: 'Pacifico', cursive;
+    --header-font: 'Bebas Neue', cursive;
+    --body-font: 'Comfortaa', cursive;
+}
+
+html {
+    background-color: var(--background-color);
+}
+
+body {
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: var(--body-color);
+    color: var(--primary-color);
+    font-family: var(--body-font);
+}
+
+header {
+    padding: 1em;
+	align-items: center;
+	justify-content: center;
+    font-family: var(--title-font);
+}
+
+h3, h4, h5, h6 {
+    font-family: var(--header-font);
+}
+
+
+.header-container {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+.site-logo {
+    float: left;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+}
+
+nav {
+    background-color: var(--nav-color);
+	text-align: center;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+	margin: 0;
+	padding: 15px;
+	overflow: hidden;
+    justify-content: center;
+}
+
+nav ul li a {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 1.2rem;
+    font-family: var(--header-font);
+    color: var(--body-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 3px;
+}
+
+.active {
+    background-color: var(--accent-2);
+}
+
+.site-purpose, .site-audience, .site-color, .site-typo {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+	justify-content: center;
+    border-style: solid;
+    padding: 20px;
+    background-color: #B4CDED;
+    color: black;
+}
+
+.site-audience {
+    max-width: 800px;
+    display: grid;
+    grid-template-rows: .1fr 1fr 1fr;
+    justify-content: left;
+}
+
+.site-color {
+    background-color: var(--accent-1);
+}
+
+.persona-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.persona-header {
+    grid-column: 1/3;
+}
+
+.primary{
+    color: var(--background-color);
+}
+
+.secondary {
+    color: var(--body-color);
+}
+
+.accent-1 {
+    color: var(--nav-color);
+}
+
+.accent-2 {
+    color: var(--accent-2);
+}
+
+.dark {
+    color: var(--primary-color)
+}
+
+.white {
+    color: black
+}
+
+.sample-1 {
+    font-family: var(--title-font);
+}
+
+.font-1, .font-2, .font-3 {
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+footer {
+    text-align: center;
+    border-radius: 10px;
+    padding: 1px;
+}
