@@ -7,6 +7,10 @@
 
     --primary-color: WHITE;
     --secondary-color: #F6AE2D;
+
+    --title-font: 'Pacifico', cursive;
+    --header-font: 'Bebas Neue', cursive;
+    --body-font: 'Comfortaa', cursive;
 }
 
 html {
@@ -17,14 +21,21 @@ body {
     margin: 0 auto;
     max-width: 900px;
     background-color: var(--body-color);
-    color: var(--primary-color)
+    color: var(--primary-color);
+    font-family: var(--body-font);
 }
 
 header {
     padding: 1em;
 	align-items: center;
 	justify-content: center;
+    font-family: var(--title-font);
 }
+
+h3, h4, h5, h6 {
+    font-family: var(--header-font);
+}
+
 
 .header-container {
     margin: 0 auto;
@@ -59,14 +70,19 @@ nav ul li a {
 	padding: 3em;
 	text-decoration: none;
 	font-size: 1.2rem;
+    font-family: var(--header-font);
     color: var(--body-color);
+}
+
+ul {
+    list-style-type: none;
 }
 
 .active {
     background-color: var(--accent-2);
 }
 
-.site-purpose, .site-audience, .site-color {
+.site-purpose, .site-audience, .site-color, .site-typo {
     max-width: 600px;
     margin: 20px auto;
     text-align: center;
@@ -120,6 +136,17 @@ nav ul li a {
 
 .white {
     color: black
+}
+
+.sample-1 {
+    font-family: var(--title-font);
+}
+
+.font-1, .font-2, .font-3 {
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
 }
 
 footer {
