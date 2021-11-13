@@ -1,3 +1,81 @@
+:root{
+    --background-color: #B4CDED;
+    --body-color: #344966;
+    --nav-color: #FFD470;
+    --accent-1: #E6AF2E;
+    --accent-2: #7DCD85;
+
+    --primary-color: WHITE;
+    --secondary-color: #F6AE2D;
+
+    --title-font: 'Pacifico', cursive;
+    --header-font: 'Bebas Neue', cursive;
+    --body-font: 'Comfortaa', cursive;
+}
+
+html {
+    background-color: var(--background-color);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: var(--body-color);
+    padding: 10px;
+
+    font-family: var(--title-font);
+    color: var(--primary-color);
+    font-size: .6rem;
+}
+
+h1, h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    font-family: var(--header-font);
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 1.6rem;
+    color: rgba(0,0,0,0.5);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    display: block; /* makes the whole area of the link clickable */
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: var(--body-color);
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.2);
+    color: var(--secondary-color);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
 .logo {
     max-width: 20%;
 }
