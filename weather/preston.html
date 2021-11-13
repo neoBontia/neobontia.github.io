@@ -26,7 +26,7 @@
         </div>
     </header>
 
-    <nav>
+    <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="#">Home</a></li>
@@ -42,11 +42,13 @@
         <div class="preston-content-container">
             <h3>Preston Idaho</h3>
 
-            <img class="hero" src="https://picsum.photos/900/200" alt="Hero image">
-            
-            <div class="weather-summary">
-                <h4>Weather Summary</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor.</p>
+            <div class="hero-box">
+                <img class="hero" src="https://picsum.photos/700/200" alt="Hero image">
+                
+                <div class="weather-summary">
+                    <h4>Weather Summary</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor.</p>
+                </div>
             </div>
 
             <div class="forecast">
@@ -72,25 +74,35 @@
 
             <div class="article">
                 <h4>Article Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor.</p>
-                <img class="article-img" src="https://picsum.photos/900/200" alt="Article image">
+                <img class="article-img" src="https://picsum.photos/700/200" alt="Article image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, 
+                   scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, 
+                   aliquet id semper eget, scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing 
+                   elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor.Lorem ipsum dolor sit amet, 
+                   consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor. Lorem 
+                   ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, 
+                   scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, 
+                   aliquet id semper eget, scelerisque at tortor.</p>
             </div>
 
             <footer>
-                <h4>Contact information</h4>
+                <div class="contacts-box">
+                    <div class="contacts">
+                        <h4>Contact information</h4>
+                        <ul>
+                            <li>☎ (555) 555-8888</li>
+                            <li>✉ preston@weatherwithus.com</li>
+                        </ul>
 
-                <ul>
-                    <li>☎ (555) 555-8888</li>
-                    <li>✉ preston@weatherwithus.com</li>
-                </ul>
+                        <ul class="socials">
+                            <li><a href="https://www.facebook.com"><img src="images/facebook.png"></a></li>
+                            <li><a href="https://www.instagram.com"><img src="images/instagram.png"></a></li>
+                            <li><a href="https://www.twitter.com"><img src="images/twitter.png"></a></li>
+                        </ul>
+                    </div>
 
-                <ul class="socials">
-                    <li><a href="https://www.facebook.com"><img src="images/facebook.png"></a></li>
-                    <li><a href="https://www.instagram.com"><img src="images/instagram.png"></a></li>
-                    <li><a href="https://www.twitter.com"><img src="images/twitter.png"></a></li>
-                </ul>
-
-                <img class="map" src="images/map.jpg">
+                    <img class="map" src="images/map.jpg">
+                </div>
 
                 <div class="date-container"><span id="date"></span></div>
             </footer>

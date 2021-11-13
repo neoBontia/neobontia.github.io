@@ -78,9 +78,15 @@ nav ul.hide {
 
 main h3 {
     padding-left: 10px;
+    margin-top: 10px;
     margin-bottom: 5px;
     font-family: var(--header-font);
-    font-size: 1rem;
+    font-size: 1.2rem;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 h4, h5, h6 {
@@ -98,7 +104,7 @@ p {
 }
 
 .weather-summary{
-    max-width: 320px;
+    max-width: 425px;
     background-color: rgba(125,205,133, 0.5);
     border-style: solid;
     border-width: 1px;
@@ -110,7 +116,7 @@ p {
 }
 
 .forecast {
-    max-width: 900px;
+    max-width: 700px;
     background-color: var(--secondary-color);
     border-style: solid;
     border-width: 2px;
@@ -140,7 +146,7 @@ p {
 }
 
 .article {
-    max-width: 900px;
+    max-width: 700px;
     padding: .5rem;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -179,4 +185,11 @@ footer ul {
 
 .hero, .article-img, .map {
     max-width: 100%;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
