@@ -28,7 +28,7 @@ header {
 
     font-family: var(--title-font);
     color: var(--primary-color);
-    font-size: .6rem;
+    font-size: .65rem;
 }
 
 h1, h2 {
@@ -37,7 +37,7 @@ h1, h2 {
 }
 
 nav {
-    background-color: var(--secondary-color);
+    background-color: var(--nav-color);
     font-family: var(--header-font);
 }
 
@@ -64,7 +64,7 @@ nav ul li a{
 }
 
 nav ul li.active a{
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.4);
     color: var(--secondary-color);
 }
 
@@ -73,6 +73,99 @@ nav ul li a:hover {
 }
 
 nav ul.hide {
+    display: none;
+}
+
+main h3 {
+    padding-left: 10px;
+    margin-bottom: 5px;
+    font-family: var(--header-font);
+    font-size: 1rem;
+}
+
+h4, h5, h6 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: var(--header-font);
+    font-size: .9rem;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: var(--body-font);
+    font-size: .7rem;
+}
+
+.weather-summary{
+    max-width: 320px;
+    background-color: rgba(125,205,133, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.5);
+    padding: .5rem;
+    padding-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.forecast {
+    max-width: 900px;
+    background-color: var(--secondary-color);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0,0,0,0.5);
+    padding: .5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+.forecast ul {
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.forecast-box {
+    background-color: var(--accent-1);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.3);
+    padding: .2rem;
+    margin: 1px;
+}
+
+.article {
+    max-width: 900px;
+    padding: .5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: var(--body-color);
+    color: var(--primary-color);
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.date-container {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.socials {
     display: none;
 }
 

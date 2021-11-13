@@ -27,8 +27,8 @@
     </header>
 
     <nav>
-        <button>&#9776;</button>
-        <ul class="hide">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
             <li><a href="#">Home</a></li>
             <li class="active"><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
@@ -42,7 +42,7 @@
         <div class="preston-content-container">
             <h3>Preston Idaho</h3>
 
-            <img class="hero" src="https://picsum.photos/600/200" alt="Hero image">
+            <img class="hero" src="https://picsum.photos/900/200" alt="Hero image">
             
             <div class="weather-summary">
                 <h4>Weather Summary</h4>
@@ -73,7 +73,7 @@
             <div class="article">
                 <h4>Article Title</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor.</p>
-                <img class="article-img" src="https://picsum.photos/600/200" alt="Article image">
+                <img class="article-img" src="https://picsum.photos/900/200" alt="Article image">
             </div>
 
             <footer>
@@ -92,7 +92,7 @@
 
                 <img class="map" src="images/map.jpg">
 
-                <span id="date"></span>
+                <div class="date-container"><span id="date"></span></div>
             </footer>
         </div>
     </main>
