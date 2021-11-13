@@ -1,0 +1,11 @@
+.logo {
+    max-width: 20%;
+}
+
+.forecast-icon {
+    max-width: 50px;
+}
+
+.hero, .article-img, .map {
+    max-width: 100%;
+}

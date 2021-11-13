@@ -16,10 +16,85 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-
 </head>
 <body>
+    <header>
+        <img class="logo" src="images/logo.png">
+        <h1 class="site-name">Weather With Us</h1>
+        <h2 class="site-motto">Rain or shine, we can weather it out!</h2>
+
+        <nav>
+            <button>&#9776;</button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
     
+    <main>
+        <div class="preston-content-container">
+            <h3>Preston Idaho</h3>
+
+            <img class="hero" src="https://picsum.photos/600/200" alt="Hero image">
+            
+            <div class="weather-summary">
+                <h4>Weather Summary</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor.</p>
+            </div>
+
+            <div class="forecast">
+                <h4>5-day Forecast</h4>
+                <ul>
+                    <li class="forecast-box">
+                        <h5>Day 1</h5><img class="forecast-icon" src="images/cloud.png">
+                    </li>
+                    <li class="forecast-box">
+                        <h5>Day 2</h5><img class="forecast-icon" src="images/cloud.png">
+                    </li>
+                    <li class="forecast-box">
+                        <h5>Day 3</h5><img class="forecast-icon" src="images/cloud.png">
+                    </li>
+                    <li class="forecast-box">
+                        <h5>Day 4</h5><img class="forecast-icon" src="images/cloud.png">
+                    </li>
+                    <li class="forecast-box">
+                        <h5>Day 5</h5><img class="forecast-icon" src="images/cloud.png">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="article">
+                <h4>Article Title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor.</p>
+                <img class="article-img" src="https://picsum.photos/600/200" alt="Article image">
+            </div>
+
+            <footer>
+                <h4>Contact information</h4>
+
+                <ul>
+                    <li>☎ (555) 555-8888</li>
+                    <li>✉ preston@weatherwithus.com</li>
+                </ul>
+
+                <ul class="socials">
+                    <li><a href="https://www.facebook.com"><img src="images/facebook.png"></a></li>
+                    <li><a href="https://www.instagram.com"><img src="images/instagram.png"></a></li>
+                    <li><a href="https://www.twitter.com"><img src="images/twitter.png"></a></li>
+                </ul>
+
+                <img class="map" src="images/map.jpg">
+
+                <span id="date"></span>
+            </footer>
+        </div>
+    </main>
+
     <script src="js/scripts.js"></script>
 </body>
 </html>
