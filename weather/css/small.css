@@ -131,9 +131,13 @@ p {
 .forecast ul {
     list-style: none;
     padding: 5px;
+
     display: flex;
-    justify-content: space-evenly;
+    flex-flow: row wrap;
+    flex: 1 1 auto;
+    
     margin: 10px;
+    justify-content: space-evenly;
 }
 
 .forecast-box {
@@ -142,7 +146,7 @@ p {
     border-width: 1px;
     border-color: rgba(0,0,0,0.3);
     padding: .2rem;
-    margin: 1px;
+    margin-top: 5px;
 }
 
 .article {
