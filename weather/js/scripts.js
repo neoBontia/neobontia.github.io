@@ -4,6 +4,7 @@ const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
 let date = new Date();
 
 document.getElementById("date").innerText = days[date.getDay()] + ", " + date.getDate() + " " + months[date.getMonth()] + " " + date.getFullYear();
+document.getElementById("year").innerText = date.getFullYear();
 
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
