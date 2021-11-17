@@ -9,3 +9,8 @@ document.getElementById("year").innerText = date.getFullYear();
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
+
+if (date.getDay() == 5) { 
+    document.getElementById("banner").style.display = "block";
+}
+    
