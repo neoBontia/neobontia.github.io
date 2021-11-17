@@ -77,7 +77,7 @@
         font-size: 1.2rem;
     }
 
-    p {
+    p, .date-container {
         font-size: .9rem;
     }
 

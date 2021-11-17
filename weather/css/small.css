@@ -176,6 +176,7 @@ footer p {
     font-family: var(--body-font);
     text-align: center;
     padding-top: 1px;
+    font-size: .7rem;
 }
 
 .socials {
