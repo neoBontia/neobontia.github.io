@@ -47,8 +47,15 @@
             <h3>Preston Idaho</h3>
 
             <div class="hero-box">
-                <img class="hero" src="https://picsum.photos/700/200" alt="Hero image">
-                
+                <picture>
+                    <source srcset="images/hero_medium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                    <source srcset="images/hero_large.jpeg" media="(min-width: 800px)">
+                    <img class="hero" src="images/hero_small.jpg" alt="Hero image">
+                </picture>
+                <div class="small"><p>SMALL</p></div>
+                <div class="medium"><p>MEDIUM</p></div>
+                <div class="large"><p>LARGE</p></div>
+
                 <div class="weather-summary">
                     <h4>Weather Summary</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor.</p>
