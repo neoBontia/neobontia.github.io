@@ -85,7 +85,7 @@ main h3 {
 }
 
 main {
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -103,7 +103,23 @@ p {
     font-size: .7rem;
 }
 
-/* */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px 10px;
+
+    padding: 20px;
+}
+
+.img-card {
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+.img-description {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
 
 footer {
     background-color: var(--body-color);
