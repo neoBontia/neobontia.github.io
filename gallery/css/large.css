@@ -13,6 +13,16 @@
         font-size: 2.2rem;
     }
 
+    .img-card {
+        border: 1px solid rgba(0,0,0,0.5);
+        box-shadow: 5px 5px 10px #6b6b6b;
+    }
+
+    .img-card:hover {
+        border: 1px solid rgba(0,0,0,0.5);
+        box-shadow: 0px 5px 8px #424242;
+    }
+
     h4, h5, h6 {
         font-size: 1.4rem;
     }

@@ -112,13 +112,20 @@ p {
     padding: 20px;
 }
 
-.img-card {
-    border: 1px solid rgba(0,0,0,0.5);
+.img-description {
+    margin-top: -9px;
+    padding: 10px;
+    padding-bottom: 5px;
+    background-color: var(--accent-1);
 }
 
-.img-description {
-    padding-left: 10px;
-    padding-bottom: 5px;
+.img-card img[data-src] {
+  filter: blur(0.2em);
+}
+
+.img-card img {
+  filter: blur(0em);
+  transition: filter 0.5s;
 }
 
 footer {
