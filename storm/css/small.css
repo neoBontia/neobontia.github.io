@@ -162,6 +162,18 @@ textarea {
     margin: 0 0 1rem 5%;
 }
 
+.thank-you {
+    background-color: var(--accent-1);
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
+    justify-items: center;
+}
+
+.thank-you h3{
+    padding-top: 85px;
+}
+
 /* */
 
 footer {
