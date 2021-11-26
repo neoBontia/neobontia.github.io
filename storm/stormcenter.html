@@ -49,7 +49,7 @@
 
                 <label class="top">Full Name<input type="text" minlength="5" name="fullName" required></label>
                 <label class="top">Email<input type="email" placeholder="someone@mail.com" name="email"></label>
-                <label class="top">Phone Number<input type="tel" placeholder="###########" name="phone" required></label>
+                <label class="top">Phone Number<input type="tel" pattern="[0-9]{10}" placeholder="##########" name="phone" required></label>
                 <label class="top">ZIP Code<input type="number" placeholder="#####" pattern=".{5,5}" name="zip" required></label>
             </fieldset>
 
