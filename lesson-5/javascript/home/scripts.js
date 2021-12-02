@@ -43,6 +43,7 @@ fetch(requestURL)
 
             let motto = document.createElement('p');
             motto.textContent = towns[i].motto;
+            motto.classList.add("motto");
             data.appendChild(motto);
 
             let year = document.createElement('p');

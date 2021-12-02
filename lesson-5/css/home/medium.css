@@ -28,39 +28,46 @@
         font-size: 2rem;
     }
 
-    .hero-box{
-        position: relative;
+    .cards {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 2rem;
     }
 
-    .weather-summary {
-        position: absolute;
-        top: 10px;
-        left: 10px;
+    article {
+        background-color: var(--accent-2);
+        border: 1px solid rgba(0,0,0,0.5);
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
     }
 
-    .small{
-        display: none;
+    article:nth-child(odd) {
+        flex-direction: row-reverse;
     }
 
-    .medium{
-        display: block;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        color: yellow;
+    article img {
+        border:1px solid #000080; width: 100%; height: auto;
+        max-width: 50%;
+    }
+    article div {
+        text-align: center;
+        margin: 0 auto;
     }
 
-    .large{
-        display: none;
+    article h2 {
+        font-family: var(--header-font);
+        font-size: 2rem;
+        margin-bottom: 1px;
     }
 
-    .forecast-box {
-        width: 100px;
-    }
-
-    .article img {
-        float: right;
-        width: 250px;
+    .motto {
+        margin-top: 1px;
+        font-family: var(--title-font);
+        margin-bottom: 30px;
     }
 
     .contacts-box {

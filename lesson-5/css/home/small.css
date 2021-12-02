@@ -85,7 +85,7 @@ main h3 {
 }
 
 main {
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -103,73 +103,38 @@ p {
     font-size: .7rem;
 }
 
-.weather-summary{
-    max-width: 425px;
-    background-color: rgba(125,205,133, 0.5);
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgba(0,0,0,0.5);
-    padding: .5rem;
-    padding-left: 15px;
-    margin-top: 0px;
-    margin-bottom: 10px;
+.cards {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
-.small{
-        display: block;
-        position: absolute;
-        top: 170px;
-        right: 10px;
-        color: yellow;
-    }
+article {
+    background-color: var(--accent-2);
+    border: 1px solid rgba(0,0,0,0.5);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
 
-    .medium{
-        display: none;
-    }
+article img {
+    border:1px solid #000080; width: 100%; height: auto;
+    max-width: 100%;
+}
 
-    .large{
-        display: none;
-    }
-
-.forecast {
-    max-width: 700px;
-    background-color: var(--secondary-color);
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgba(0,0,0,0.5);
-    padding: .5rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+    article div {
     text-align: center;
+    margin: 0 auto;
 }
 
-.forecast ul {
-    list-style: none;
-    padding: 5px;
-
-    display: flex;
-    flex-flow: row wrap;
-    flex: 1 1 auto;
-    
-    margin: 10px;
-    justify-content: space-evenly;
+    article h2 {
+    font-family: var(--header-font);
+    margin-bottom: 1px;
 }
 
-.forecast-box {
-    background-color: var(--accent-1);
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgba(0,0,0,0.3);
-    padding: .2rem;
-    margin-top: 5px;
-}
-
-.article {
-    max-width: 700px;
-    padding: .5rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    .motto {
+    margin-top: 1px;
+    font-family: var(--title-font);
+    margin-bottom: 30px;
+    font-size: .8rem;
 }
 
 footer {
