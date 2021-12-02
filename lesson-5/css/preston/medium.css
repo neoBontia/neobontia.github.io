@@ -1,0 +1,104 @@
+@media only screen and (min-width: 35rem) {
+    header {
+        justify-content: center;
+        font-size: 1.1rem;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 auto;
+        text-align: center;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .8rem 1rem;
+        font-size: 1.1rem;   
+    }
+
+    main h3 {
+        font-size: 2rem;
+    }
+
+    .hero-box{
+        position: relative;
+    }
+
+    .weather-summary {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .small{
+        display: none;
+    }
+
+    .medium{
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: yellow;
+    }
+
+    .large{
+        display: none;
+    }
+
+    .forecast-box {
+        width: 100px;
+    }
+
+    .article img {
+        float: right;
+        width: 250px;
+    }
+
+    .contacts-box {
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .map {
+        width: 300px;
+        order: 1;
+    }
+
+    .contacts {
+        order: 2;
+    }
+
+    .socials {
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    .socials img {
+        width: 40px;
+    }
+
+    h4, h5, h6 {
+        font-size: 1.2rem;
+    }
+
+    p, .date-container {
+        font-size: .9rem;
+    }
+
+    #banner {
+        font-size: 1rem;
+    }
+
+}
