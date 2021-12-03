@@ -148,6 +148,11 @@ footer p {
     padding-bottom: 1px;
 }
 
+footer p a {
+    color: var(--accent-2);
+    text-decoration: none;
+}
+
 .date-container {
     font-family: var(--body-font);
     text-align: center;
