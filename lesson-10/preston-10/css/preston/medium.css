@@ -54,8 +54,12 @@
         display: none;
     }
 
-    .forecast-box {
-        width: 100px;
+    .forecasts {
+        flex-direction: row;
+    }
+
+    .forecasts article h3{
+        font-size: 1.2rem;
     }
 
     .article img {
