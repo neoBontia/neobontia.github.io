@@ -17,7 +17,7 @@ if (date.getDay() == 5) {
 
 // Weather API
 
-let apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=4208ccf753a6fe1968216e37c1d5ae7c";
+let apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=4208ccf753a6fe1968216e37c1d5ae7c";
 
 fetch(apiURL)
     .then((response) => response.json())
@@ -48,7 +48,7 @@ fetch(apiURL)
 
 // Forecast API
 
-apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=4208ccf753a6fe1968216e37c1d5ae7c";
+apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=4208ccf753a6fe1968216e37c1d5ae7c";
 
 fetch(apiURL)
     .then((response) => response.json())
