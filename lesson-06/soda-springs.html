@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preston Town Page | Neo Adam Bontia</title>
+    <title>Soda Springs Town Page | Neo Adam Bontia</title>
     <meta name="description"
-        content="Preston Town Page for the Weather With Us Weather site made by Neo Adam Bontia for WDD 230 BYU-Idaho.">
+        content="Soda Springs Page for the Weather With Us Weather site made by Neo Adam Bontia for WDD 230 BYU-Idaho.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/preston/normalize.css">
-    <link rel="stylesheet" href="css/preston/small.css">
-    <link rel="stylesheet" href="css/preston/medium.css">
-    <link rel="stylesheet" href="css/preston/large.css">
+    <link rel="stylesheet" href="css/soda-springs/normalize.css">
+    <link rel="stylesheet" href="css/soda-springs/small.css">
+    <link rel="stylesheet" href="css/soda-springs/medium.css">
+    <link rel="stylesheet" href="css/soda-springs/large.css">
 </head>
+
 <body>
     <div id="banner">
         Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
     </div>
 
     <header>
-        <img class="logo" src="images/preston/logo.png" alt="Weather With Us logo">
+        <img class="logo" src="images/soda-springs/logo.png" alt="Weather With Us logo">
         <div>
             <h1 class="site-name">Weather With Us</h1>
             <h2 class="site-motto">Rain or shine, we can weather it out!</h2>
@@ -34,38 +36,44 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="#">Preston</a></li>
-            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li class="active"><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
-    
+
     <main>
         <div class="preston-content-container">
-            <h3>Preston Idaho</h3>
+            <h3>Soda Springs</h3>
 
             <div class="hero-box">
                 <picture>
-                    <source srcset="images/preston/hero_medium.jpg" media="(min-width: 500px) and (max-width: 799px)">
-                    <source srcset="images/preston/hero_large.jpg" media="(min-width: 800px)">
-                    <img class="hero" src="images/preston/hero_small.jpg" alt="Hero image">
+                    <source srcset="images/soda-springs/hero_medium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                    <source srcset="images/soda-springs/hero_large.jpg" media="(min-width: 800px)">
+                    <img class="hero" src="images/soda-springs/hero_small.jpg" alt="Hero image">
                 </picture>
-                <div class="small"><p>SMALL</p></div>
-                <div class="medium"><p>MEDIUM</p></div>
-                <div class="large"><p>LARGE</p></div>
+                <div class="small">
+                    <p>SMALL</p>
+                </div>
+                <div class="medium">
+                    <p>MEDIUM</p>
+                </div>
+                <div class="large">
+                    <p>LARGE</p>
+                </div>
 
                 <div class="weather-summary">
                     <h4>Weather Summary</h4>
-                        <p>
+                    <p>
                         Condition: <span id="condition"></span><br>
                         Temperature: <span id="currTemp"></span>°F<br>
                         Windchill: <span id="windChill"></span><br>
                         High: <span id="highTemp"></span>°F<br>
                         Humidity: <span id="humidity"></span>%<br>
                         Wind Speed: <span id="windSpeed"></span> mph
-                        </p>
+                    </p>
                 </div>
             </div>
 
@@ -77,14 +85,14 @@
             <div class="article">
                 <h4>Article Title</h4>
                 <img class="article-img" src="https://picsum.photos/700/200" alt="Article image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, 
-                   scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, 
-                   aliquet id semper eget, scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing 
-                   elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor.Lorem ipsum dolor sit amet, 
-                   consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor. Lorem 
-                   ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, 
-                   scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, 
-                   aliquet id semper eget, scelerisque at tortor.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget,
+                    scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi,
+                    aliquet id semper eget, scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor.Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget, scelerisque at tortor. Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi, aliquet id semper eget,
+                    scelerisque at tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi,
+                    aliquet id semper eget, scelerisque at tortor.</p>
             </div>
         </div>
     </main>
@@ -97,25 +105,29 @@
                     <li>☎ (555) 555-8888</li>
                     <li>✉ preston@weatherwithus.com</li>
                 </ul>
-    
+
                 <ul class="socials">
-                    <li><a href="https://www.facebook.com"><img src="images/preston/facebook.png" alt="Facebook icon"></a></li>
-                    <li><a href="https://www.instagram.com"><img src="images/preston/instagram.png" alt="Instagram icon"></a></li>
-                    <li><a href="https://www.twitter.com"><img src="images/preston/twitter.png" alt="Twitter icon"></a></li>
+                    <li><a href="https://www.facebook.com"><img src="images/soda-springs/facebook.png"
+                                alt="Facebook icon"></a></li>
+                    <li><a href="https://www.instagram.com"><img src="images/soda-springs/instagram.png"
+                                alt="Instagram icon"></a></li>
+                    <li><a href="https://www.twitter.com"><img src="images/soda-springs/twitter.png" alt="Twitter icon"></a>
+                    </li>
                 </ul>
             </div>
-    
-            <img class="map" src="images/preston/map.jpg" alt="Location of Preston via map">
+
+            <img class="map" src="images/soda-springs/map.jpg" alt="Location of Preston via map">
         </div>
 
         <p>
             © <span id="year"></span> | Neo Adam Bontia | Philippines |
-            <a href="https://www.byui.edu/online">BYUI Online Learning</a> | 
+            <a href="https://www.byui.edu/online">BYUI Online Learning</a> |
             Weather Data: <a href="https://openweathermap.org" target="_blank">OpenWeather</a>
         </p>
 
         <div class="date-container"><span id="date"></span></div>
     </footer>
-    <script src="javascript/preston/scripts.js"></script>
+    <script src="javascript/soda-springs/scripts.js"></script>
 </body>
+
 </html>

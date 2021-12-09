@@ -1,0 +1,234 @@
+:root{
+    --background-color: #B4CDED;
+    --body-color: #344966;
+    --nav-color: #FFD470;
+    --accent-1: #E6AF2E;
+    --accent-2: #7DCD85;
+
+    --primary-color: WHITE;
+    --secondary-color: #F6AE2D;
+
+    --title-font: 'Pacifico', cursive;
+    --header-font: 'Bebas Neue', cursive;
+    --body-font: 'Comfortaa', cursive;
+}
+
+html {
+    background-color: var(--background-color);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--body-color);
+    padding: 10px;
+
+    font-family: var(--title-font);
+    color: var(--primary-color);
+    font-size: .65rem;
+}
+
+h1, h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: var(--nav-color);
+    font-family: var(--header-font);
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 1.6rem;
+    color: rgba(0,0,0,0.5);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    display: block; /* makes the whole area of the link clickable */
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: var(--body-color);
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.4);
+    color: var(--secondary-color);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+main h3 {
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: var(--header-font);
+    font-size: 1.2rem;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h4, h5, h6 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: var(--header-font);
+    font-size: .9rem;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: var(--body-font);
+    font-size: .7rem;
+}
+
+.weather-summary{
+    max-width: 425px;
+    background-color: rgba(125,205,133, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.5);
+    padding: .5rem;
+    padding-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.small{
+        display: block;
+        position: absolute;
+        top: 170px;
+        right: 10px;
+        color: yellow;
+    }
+
+    .medium{
+        display: none;
+    }
+
+    .large{
+        display: none;
+    }
+
+.forecast {
+    max-width: 700px;
+    background-color: var(--secondary-color);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0,0,0,0.5);
+    padding: .5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+.forecasts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.forecasts article {
+    border: 1px solid rgba(0,0,0,0.5);
+    width: 300px;
+    text-align: center;
+}
+
+.forecasts article h3{
+    font-size: .9rem;
+    padding: 0px;
+}
+
+.article {
+    max-width: 700px;
+    padding: .5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: var(--body-color);
+    color: var(--primary-color);
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+footer p a {
+    color: var(--accent-2);
+    text-decoration: none;
+}
+
+.date-container {
+    font-family: var(--body-font);
+    text-align: center;
+    padding-top: 1px;
+    font-size: .7rem;
+}
+
+.socials {
+    display: none;
+}
+
+.logo {
+    max-width: 20%;
+}
+
+.forecast-icon {
+    max-width: 50px;
+}
+
+.hero, .article-img, .map {
+    max-width: 100%;
+}
+
+#banner {
+    display: none;
+    background-color: var(--accent-2);
+    font-family: var(--header-font);
+    color: var(--body-color);
+    font-size: .75rem;
+    text-align: center;
+    padding: 5px;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
