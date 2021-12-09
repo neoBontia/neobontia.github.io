@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Neo Adam Bontia</title>
+    <meta name="description"
+        content="Gallery page for the Weather With Us Weather site made by Neo Adam Bontia for WDD 230 BYU-Idaho.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/gallery/normalize.css">
+    <link rel="stylesheet" href="css/gallery/small.css">
+    <link rel="stylesheet" href="css/gallery/medium.css">
+    <link rel="stylesheet" href="css/gallery/large.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/gallery/logo.png" alt="Weather With Us logo">
+        <div>
+            <h1 class="site-name">Weather With Us</h1>
+            <h2 class="site-motto">Rain or shine, we can weather it out!</h2>
+        </div>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h3>Weather Gallery</h3>
+
+        <div class="gallery-container">
+
+            <div class="img-card">
+                <img src="images/gallery/placeholder.png" data-src="images/gallery/clear-lake.jpg" alt="clear sky over a lake">
+                <div class="img-description">
+                    <p>Clear sky over a lake.</p>
+                </div>
+            </div>
+
+            <div class="img-card">
+                <img src="images/gallery/placeholder.png" data-src="images/gallery/clear-sky.jpg" alt="clear sky over the mountains">
+                <div class="img-description">
+                    <p>Clear sky over the mountains.</p>
+                </div>
+            </div>
+
+            <div class="img-card">
+                <img src="images/gallery/placeholder.png" data-src="images/gallery/cloudy-sky.jpg" alt="cloudy sky over a lake">
+                <div class="img-description">
+                    <p>Cloudy sky over a lake.</p>
+                </div>
+            </div>
+
+            <div class="img-card">
+                <img src="images/gallery/placeholder.png" data-src="images/gallery/heavy-rain.jpg" alt="heavy raining">
+                <div class="img-description">
+                    <p>Heavy rain in the city.</p>
+                </div>
+            </div>
+            
+            <div class="img-card">
+                <img src="images/gallery/placeholder.png" data-src="images/gallery/heavy-snowfall.jpg" alt="heavy snowfall">
+                <div class="img-description">
+                    <p>Heavy snowfall.</p>
+                </div>
+            </div>
+            
+            <div class="img-card">
+                <img src="images/gallery/placeholder.png" data-src="images/gallery/incoming-storm.jpg" alt="incoming storm">
+                <div class="img-description">
+                    <p>Incoming storm to the city.</p>
+                </div>
+            </div>
+
+            <div class="img-card">
+                <img src="images/gallery/placeholder.png" data-src="images/gallery/light-snowfall.jpg" alt="light snowfall">
+                <div class="img-description">
+                    <p>Light snowfall in the city.</p>
+                </div>
+            </div>
+            
+            <div class="img-card">
+                <img src="images/gallery/placeholder.png" data-src="images/gallery/snow-clearing.jpg" alt="snow clearing up">
+                <div class="img-description">
+                    <p>Snow clearing up by the river.</p>
+                </div>
+            </div>
+            
+            <div class="img-card">
+                <img src="images/gallery/placeholder.png" data-src="images/gallery/thunderstorm.jpg" alt="thunderstorm">
+                <div class="img-description">
+                    <p>Thunderstorm by the woods.</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="contacts-box">
+            <div class="contacts">
+                <h4>Contact information</h4>
+                <ul>
+                    <li>☎ (555) 555-8888</li>
+                    <li>✉ preston@weatherwithus.com</li>
+                </ul>
+
+                <ul class="socials">
+                    <li><a href="https://www.facebook.com"><img src="images/gallery/facebook.png" alt="Facebook icon"></a></li>
+                    <li><a href="https://www.instagram.com"><img src="images/gallery/instagram.png" alt="Instagram icon"></a>
+                    </li>
+                    <li><a href="https://www.twitter.com"><img src="images/gallery/twitter.png" alt="Twitter icon"></a></li>
+                </ul>
+            </div>
+
+            <img class="map" src="images/gallery/map.jpg" alt="Location of Preston via map">
+        </div>
+
+        <p>
+            © <span id="year"></span> | Neo Adam Bontia | Philippines |
+            <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        </p>
+
+        <div class="date-container"><span id="date"></span></div>
+    </footer>
+    <script src="javascript/gallery/scripts.js"></script>
+</body>
+
+</html>

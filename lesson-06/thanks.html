@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm Center | Neo Adam Bontia</title>
+    <meta name="description"
+        content="Thank you page for the Weather With Us Weather site made by Neo Adam Bontia for WDD 230 BYU-Idaho.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/storm/normalize.css">
+    <link rel="stylesheet" href="css/storm/small.css">
+    <link rel="stylesheet" href="css/storm/medium.css">
+    <link rel="stylesheet" href="css/storm/large.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/storm/logo.png" alt="Weather With Us logo">
+        <div>
+            <h1 class="site-name">Weather With Us</h1>
+            <h2 class="site-motto">Rain or shine, we can weather it out!</h2>
+        </div>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="#">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main class="thank-you">
+        <h3>Thank you for reporting the storm!</h3>
+    </main>
+
+    <footer>
+        <div class="contacts-box">
+            <div class="contacts">
+                <h4>Contact information</h4>
+                <ul>
+                    <li>☎ (555) 555-8888</li>
+                    <li>✉ preston@weatherwithus.com</li>
+                </ul>
+
+                <ul class="socials">
+                    <li><a href="https://www.facebook.com"><img src="images/storm/facebook.png" alt="Facebook icon"></a></li>
+                    <li><a href="https://www.instagram.com"><img src="images/storm/instagram.png" alt="Instagram icon"></a>
+                    </li>
+                    <li><a href="https://www.twitter.com"><img src="images/storm/twitter.png" alt="Twitter icon"></a></li>
+                </ul>
+            </div>
+
+            <img class="map" src="images/storm/map.jpg" alt="Location of Preston via map">
+        </div>
+
+        <p>
+            © <span id="year"></span> | Neo Adam Bontia | Philippines |
+            <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        </p>
+
+        <div class="date-container"><span id="date"></span></div>
+    </footer>
+    <script src="javascript/storm/scripts.js"></script>
+</body>
+
+</html>
