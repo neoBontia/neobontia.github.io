@@ -55,7 +55,7 @@
 
     .article img {
         float: right;
-        width: 250px;
+        margin: 10px;
     }
 
     .contacts-box {
