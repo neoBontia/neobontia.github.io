@@ -83,3 +83,33 @@ fetch(apiURL)
             document.querySelector('div.forecasts').appendChild(card);
         }
     });
+
+// Events Box
+
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject);  // temporary checking for valid response and data parsing
+        const towns = jsonObject['towns'];
+
+        let label =  document.createElement("h4");
+        label.innerText = "Upcoming Events";
+        document.querySelector("div.events-box").appendChild(label);
+
+        for (let i = 0; i < towns.length; i++) {
+            if (towns[i].name == "Preston") {
+                let card = document.createElement('article');
+                
+                for (let x = 0; x < towns[i].events.length; x++){
+                    let p = document.createElement("p");
+                    p.innerHTML = towns[i].events[x];
+                    card.appendChild(p)
+                }
+                document.querySelector("div.events-box").appendChild(card);
+            }
+        }
+    });
