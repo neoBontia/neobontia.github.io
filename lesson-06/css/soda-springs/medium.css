@@ -38,6 +38,13 @@
         left: 10px;
     }
     
+    .events-box {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        background-color: rgba(125,205,133, 0.7);
+    }
+
     .forecasts {
         flex-direction: row;
     }

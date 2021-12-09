@@ -115,6 +115,22 @@ p {
     margin-bottom: 10px;
 }
 
+.events-box{
+    max-width: 425px;
+    background-color: rgba(125,205,133, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.5);
+    padding: .5rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.events-box h4 {
+    padding-bottom: 10px;
+}
+
 .forecast {
     max-width: 700px;
     background-color: var(--secondary-color);
