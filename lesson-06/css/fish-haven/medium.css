@@ -38,22 +38,6 @@
         left: 10px;
     }
 
-    .small{
-        display: none;
-    }
-
-    .medium{
-        display: block;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        color: yellow;
-    }
-
-    .large{
-        display: none;
-    }
-
     .forecasts {
         flex-direction: row;
     }

@@ -115,22 +115,6 @@ p {
     margin-bottom: 10px;
 }
 
-.small{
-        display: block;
-        position: absolute;
-        top: 170px;
-        right: 10px;
-        color: yellow;
-    }
-
-    .medium{
-        display: none;
-    }
-
-    .large{
-        display: none;
-    }
-
 .forecast {
     max-width: 700px;
     background-color: var(--secondary-color);
