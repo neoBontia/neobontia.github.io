@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots | Home</title>
+    <meta name="description"
+        content="Scooter Rental website. Home Page. Project of Neo Adam Bontia for the course WDD 230 of BYU-Idaho.">
+    <link rel="stylesheet" href="css/general/normalize.css">
+    <link rel="stylesheet" href="css/general/small.css">
+    <link rel="stylesheet" href="css/general/medium.css">
+    <link rel="stylesheet" href="css/general/large.css">
+    <link rel="stylesheet" href="css/home/small.css">
+    <link rel="stylesheet" href="css/home/medium.css">
+    <link rel="stylesheet" href="css/home/large.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/general/logo.png" alt="Scoots' logo">
+        <button onclick="toggleMenu()">&#9776;</button>
+    </header>
+    <nav class="clearfix">
+        <ul id="navBar" class="hide">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Rentals</a></li>
+            <li><a href="#">Reservations</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="banner">
+            <img src="images/home/scoots-banner.jpg" alt="Scoot's promotional banner">
+                <div class="hook">
+                    <h1>Experience Cozumel the right way</h1>
+                </div>
+                <div class="link">
+                    <a href="#"><button>RESERVE NOW</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="summary">
+            <h2>A VARIETY OF SCOOTERS TO CHOOSE FROM</h2>
+            <img src="images/home/summary-banner.jpg" alt="Picture of scooters">
+            <div class="text">
+                <p>Choose from a wide selection of scooters and rental vehicles.
+                   Be it for a single person or a party of five, for half-a-day
+                   or the whole day, Scoots has you covered!</p>
+                <button><a href="#">CHECK OUT OUR RENTALS NOW</a></button>
+            </div>
+        </div>
+
+        <div class="weather">
+            <h2>HOW IS THE WEATHER AT COZUMEL?</h2>
+            <div class="status">
+                <img src="images/home/weather-banner.jpg" img="Picture of Cozumel beach">
+                <p>
+                    Condition: <span id="condition"></span><br>
+                    Temperature: <span id="temp"></span>°F<br>
+                    Humidity: <span id="humidity"></span>%<br>
+                </p>
+            </div>
+            <div class="forecast">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="site-footer">
+            <div class="contacts-container">
+                <div class="social-media">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com"><img src="images/general/facebook.png" alt="Facebook icon"></a></li>
+                        <li><a href="https://www.instagram.com"><img src="images/general/instagram.png" alt="Instagram icon"></a></li>
+                        <li><a href="https://www.twitter.com"><img src="images/general/twitter.png" alt="Twitter icon"></a></li>
+                    </ul>
+                </div>
+                <div class="contact-info">
+                    <h4>Contact information</h4>
+                    <ul>
+                        <li>☎ (555) 555-8888</li>
+                        <li>✉ cozumel@scoots.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-footer">
+            <p>
+                © <span id="year"></span> | Neo Adam Bontia | <a href="https://openweathermap.org/city/3530103">OpenWeather</a>
+            </p>
+            <span id="latest-update"></span>
+        </div>
+    </footer>
+    <script src="js/general/scripts.js"></script>
+</body>
+
+</html>

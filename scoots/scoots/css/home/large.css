@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;400;700&display=swap');
+
+:root {
+    --main-color: #FF3333;
+    --secondary-color: #FFBA0A;
+    --main-accent: #53B3CB;
+
+    --main-font: 'Urbanist', sans-serif;
+}
+
+@media only screen and (min-width: 64rem) {
+    main div.summary, main div.weather {
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+
+    main div.banner div.hook {
+        font-size: 3rem;
+    }
+
+    main div.banner div.link button {
+        bottom: 490px;
+        right: 100px;
+        width: 25rem;
+    }
+
+    main div.banner div.link a {
+        font-size: 2rem;
+    }
+
+    main div.summary h2, main div.weather h2 {
+        font-size: 2.3rem;
+        text-align: left;
+        padding-left: 0px;
+    }
+
+    main div.summary div.text p {
+        font-size: 1.5rem;
+    }
+
+    main div.summary div.text button {
+        width: 23rem;
+    }
+
+    main div.summary div.text a {
+        font-size: 1.3rem;
+    }
+
+    main div.summary div.text a {
+        font-size: 1.1rem;
+    }
+
+    main div.weather {
+        margin-bottom: 3rem;
+    }
+
+    main div.weather div.status p {
+        font-size: 1.8rem;
+    }
+
+    main div.weather div.forecast {
+        bottom: -1250px;
+        left: 475px;
+    }
+
+    main div.weather div.forecast article {
+        width: 10rem;
+    }
+
+    main div.weather div.forecast h3 {
+        font-size: 1.3rem;
+    }
+
+    main div.weather div.forecast p {
+        font-size: 1.3rem;
+    }
+}

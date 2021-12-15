@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;400;700&display=swap');
+
+:root {
+    --main-color: #FF3333;
+    --secondary-color: #FFBA0A;
+    --main-accent: #53B3CB;
+
+    --main-font: 'Urbanist', sans-serif;
+}
+
+header {
+    display: block;
+    text-align: center;
+    padding: 1.2rem;
+    border-bottom: 1px solid var(--main-color);
+}
+
+header img {
+    width: 90px;
+    vertical-align: middle;
+}
+
+header button {
+    display: inline-block;
+    border: none;
+    background-color: white;
+    font-size: 1.6rem;
+    color: var(--main-color);
+    position: absolute;
+    left: auto;
+    top: 2rem;
+    right: .9rem;
+}
+
+nav {
+    background-color: var(--main-color);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: none;
+}
+
+nav ul li a{
+    display: block;
+    padding: 1rem 2%;
+    text-decoration: none;
+    color: black;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+nav ul li.active a{
+    color: white;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    background-color: #ffba0a7e;
+    color: black;
+    font-weight: 700;
+}
+
+nav ul.hide li{
+    display: block;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(253, 199, 199, 0.2);
+    padding: 1rem;
+    font-family: var(--main-font);
+}
+
+footer h4 {
+    margin-bottom: 0rem;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+footer div.social-media ul {
+    display: flex;
+    justify-content: center;
+    column-gap: .5rem;
+}
+
+footer img {
+    width: 40px;
+}
+
+footer div.contacts-container {
+    margin-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .3rem;
+}
+
+footer div.copyright-footer {
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+footer div.copyright-footer a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
