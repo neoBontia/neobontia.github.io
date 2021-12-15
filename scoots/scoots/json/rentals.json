@@ -3,50 +3,50 @@
         {
             "type": "Honda Metro Scooter",
             "max": 1,
-            "res-half": 20,
-            "res-full": 30,
-            "walk-half": 25,
-            "walf-full": 25
+            "rh": 20,
+            "rf": 30,
+            "wh": 25,
+            "wf": 35
         },
         {
             "type": "Honda Dio Scooter",
             "max": 2,
-            "res-half": 30,
-            "res-full": 40,
-            "walk-half": 35,
-            "walf-full": 45
+            "rh": 30,
+            "rf": 40,
+            "wh": 35,
+            "wf": 45
         },
         {
             "type": "Honda PCX150 Scooter",
             "max": 2,
-            "res-half": 40,
-            "res-full": 50,
-            "walk-half": 45,
-            "walf-full": 55
+            "rh": 40,
+            "rf": 50,
+            "wh": 45,
+            "wf": 55
         },
         {
             "type": "Honda Pioneer ATV",
             "max": 4,
-            "res-half": 50,
-            "res-full": 70,
-            "walk-half": 60,
-            "walf-full": 80
+            "rh": 50,
+            "rf": 70,
+            "wh": 60,
+            "wf": 80
         },
         {
             "type": "Jeep Wrangler—4 door with a/c",
             "max": 5,
-            "res-half": 70,
-            "res-full": 100,
-            "walk-half": 85,
-            "walf-full": 125
+            "rh": 70,
+            "rf": 100,
+            "wh": 85,
+            "wf": 125
         },
         {
             "type": "Jeep Wrangler—2 door",
             "max": 4,
-            "res-half": 60,
-            "res-full": 85,
-            "walk-half": 70,
-            "walf-full": 90
+            "rh": 60,
+            "rf": 85,
+            "wh": 70,
+            "wf": 90
         }
     ]
 }
