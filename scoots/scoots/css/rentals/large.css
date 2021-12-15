@@ -9,4 +9,7 @@
 }
 
 @media only screen and (min-width: 64rem) {
+    main div.table-container td {
+        font-size: 1.2rem;
+    }
 }

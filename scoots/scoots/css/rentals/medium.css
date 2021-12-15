@@ -9,4 +9,14 @@
 }
 
 @media only screen and (min-width: 35rem) {
+    main div.gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    main div.gallery img {
+        max-width: 300px;
+    }
+
 }
