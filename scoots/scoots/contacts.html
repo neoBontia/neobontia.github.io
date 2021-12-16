@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots | Contacts</title>
+    <meta name="description"
+        content="Scooter Rental website. Contacts Page. Project of Neo Adam Bontia for the course WDD 230 of BYU-Idaho.">
+    <link rel="stylesheet" href="css/general/normalize.css">
+    <link rel="stylesheet" href="css/general/small.css">
+    <link rel="stylesheet" href="css/general/medium.css">
+    <link rel="stylesheet" href="css/general/large.css">
+    <link rel="stylesheet" href="css/contacts/small.css">
+    <link rel="stylesheet" href="css/contacts/medium.css">
+    <link rel="stylesheet" href="css/contacts/large.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/general/logo.png" alt="Scoots' logo">
+        <button onclick="toggleMenu()">&#9776;</button>
+    </header>
+    <nav class="clearfix">
+        <ul id="navBar" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li class="active"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="maps">
+            <h1>Visit us in these locations</h1>
+            <div class="container">
+                <div class="card">
+                    <h2>Playa Del Carmen</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4443.937321944837!2d-86.94990324024576!3d20.510695601322382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cf3a0ece15%3A0x9216e3c2b55e5526!2sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock!5e0!3m2!1sen!2sph!4v1639627431042!5m2!1sen!2sph"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div class="card">
+                    <h2>Terminal Puerta Maya</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.7426682856285!2d-86.97723554901884!3d20.475759811733568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5748bac98d29%3A0xec697a2a774f7a00!2sPuerta%20Maya%20Cruise%20Ship%20Terminal!5e0!3m2!1sen!2sph!4v1639627740487!5m2!1sen!2sph"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <div class="email">
+            <form method="get" action="">
+                <fieldset>
+                    <legend>Or contact us here instead</legend>
+                    <label class="top">Full Name<input type="text" minlength="5" name="name" required></label>
+                    <label class="top">Email<input type="email" placeholder="someone@mail.com" name="email"></label>
+                    <label class="top">Comment<textarea name="comments"
+                            placeholder="Enter your comment here..." required></textarea></label>
+                </fieldset>
+
+                <input class="button" type="submit" value="Send comment">
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="site-footer">
+            <div class="contacts-container">
+                <div class="social-media">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com"><img src="images/general/facebook.png"
+                                    alt="Facebook icon"></a></li>
+                        <li><a href="https://www.instagram.com"><img src="images/general/instagram.png"
+                                    alt="Instagram icon"></a></li>
+                        <li><a href="https://www.twitter.com"><img src="images/general/twitter.png"
+                                    alt="Twitter icon"></a></li>
+                    </ul>
+                </div>
+                <div class="contact-info">
+                    <h4>Contact information</h4>
+                    <ul>
+                        <li>☎ (555) 555-8888</li>
+                        <li>✉ cozumel@scoots.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-footer">
+            <p>
+                © <span id="year"></span> | Neo Adam Bontia | <a
+                    href="https://openweathermap.org/city/3530103">OpenWeather</a>
+            </p>
+            <span id="latest-update"></span>
+        </div>
+    </footer>
+    <script src="js/general/scripts.js"></script>
+</body>
+
+</html>
