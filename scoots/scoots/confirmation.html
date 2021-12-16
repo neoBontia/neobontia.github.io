@@ -33,46 +33,11 @@
     </nav>
 
     <main>
-        <form method="get" action="confirmation.html">
-            <div class="forms">
-                <fieldset>
-                    <legend>Rental Information</legend>
-                    <label class="top">Date of Application<input type="date" name="app-date" required></label>
-                    <label class="top-radio">Rental Period
-                        <label class="right"><input type="radio" name="period" value="half"> Half Day</label>
-                        <label class="right"><input type="radio" name="period" value="full"> Full Day</label>
-                    </label>
-                    <label class="top">Rental Type<select name="type" required>
-                            <option value="">Select rental type</option>
-                            <option value="honda-metro">Honda Metro Scooter</option>
-                            <option value="honda-dio">Honda Dio Scooter</option>
-                            <option value="honda-pcx">Honda PCX150 Scooter</option>
-                            <option value="honda-atv">Honda Pioneer ATV</option>
-                            <option value="jeep-4">Jeep Wrangler—4 Doors</option>
-                            <option value="jeep-2">Jeep Wrangler—2 doors</option>
-                        </select></label>
-                    <label class="top">Rental Number<input type="text" name="rentNum"></label>
-                </fieldset>
-                
-                <fieldset>
-                    <legend>Personal Information</legend>
-                    <label class="top">Phone Number<input type="tel" pattern="[0-9]{10}" placeholder="##########" name="phone" required></label>
-                    <label class="top">Full Name<input type="text" minlength="5" name="name" required></label>
-                    <label class="top">Email<input type="email" placeholder="someone@mail.com" name="email"></label>
-                    <label class="top">Country or Home State(in Mexico)<input type="text" name="country"></label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Rental Drop-off Information</legend>
-                    <label class="top">Cruise Line<input type="text" name="cruise" required></label>
-                    <label class="top">Location<input type="text" name="location" required></label>
-                    <label class="top">Comments/Special Accomodations<textarea name="comments"
-                            placeholder="Please specify here..."></textarea></label>
-                </fieldset>
-            </div>
-            
-            <input class="button" type="submit" value="Submit Rental Application">
-        </form>
+        <div class="confirmation">
+            <h1>You have completed your reservation!</h1>
+            <h2>We shall be seeing you soon. Hope you enjoy your stay here at Cozumel Island.</h2>
+        </div>
+        
     </main>
 
     <footer>

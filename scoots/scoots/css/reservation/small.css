@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;400;700&display=swap');
+
+:root {
+    --main-color: #FF3333;
+    --secondary-color: #FFBA0A;
+    --main-accent: #53B3CB;
+
+    --main-font: 'Urbanist', sans-serif;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: var(--main-font);
+}
+
+main div.forms {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+main div.forms fieldset {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid var(--main-color);
+    margin-bottom: 1rem;
+}
+
+main div.forms fieldset legend {
+    color: var(--secondary-color);
+    padding: .5rem;
+    font-size: 1.3rem;
+}
+
+main div.forms fieldset label.top {
+    display: block;
+    margin-bottom: 1.2rem;
+}
+
+main div.forms fieldset label.top-radio {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 1.2rem;
+}
+
+main div.forms fieldset label.right{
+    padding: .5rem;
+}
+
+main div.forms fieldset label.top input, select, textarea{
+    display: block;
+    width: 93%;
+    padding: .5rem;
+}
+
+main div.forms fieldset label.top input, select, textarea:required {
+    border-left: 5px solid var(--secondary-color);
+}
+
+main input.button {
+    background-color: var(--main-color);
+    border: none;
+    font-size: 1.6rem;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+main div.confirmation {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: var(--main-color);
+    color: white;
+}

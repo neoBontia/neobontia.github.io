@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;400;700&display=swap');
+
+:root {
+    --main-color: #FF3333;
+    --secondary-color: #FFBA0A;
+    --main-accent: #53B3CB;
+
+    --main-font: 'Urbanist', sans-serif;
+}
+
+@media only screen and (min-width: 35rem) {
+    main div.forms fieldset legend {
+        font-size: 1.6rem;
+    }
+
+    main div.forms fieldset label.top input, select, textarea{
+        font-size: 1.2rem;
+    }
+
+     main div.forms fieldset label {
+         font-size: 1.2rem;
+     }
+
+}
